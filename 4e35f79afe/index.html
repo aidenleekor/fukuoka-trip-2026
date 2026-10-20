@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light only">
+<meta name="theme-color" content="#ffffff">
 <title>후쿠오카 여행 정산</title>
 <meta name="description" content="민재네 → 상배 ₩650,000 · 후쿠오카 가족여행 경비 정산">
 <meta property="og:type" content="website">
@@ -11,111 +13,113 @@
 <meta property="og:title" content="후쿠오카 여행 정산 · 민재네 → 상배 ₩650,000">
 <meta property="og:description" content="2026.10.16–18 후쿠오카 가족여행 경비 정산과 전체 내역">
 <meta property="og:url" content="https://aidenleekor.github.io/fukuoka-trip-2026/4e35f79afe/">
-<meta property="og:image" content="https://aidenleekor.github.io/fukuoka-trip-2026/4e35f79afe/og-settle.jpg">
-<meta property="og:image:secure_url" content="https://aidenleekor.github.io/fukuoka-trip-2026/4e35f79afe/og-settle.jpg">
+<meta property="og:image" content="https://aidenleekor.github.io/fukuoka-trip-2026/4e35f79afe/og-settle-light.jpg">
+<meta property="og:image:secure_url" content="https://aidenleekor.github.io/fukuoka-trip-2026/4e35f79afe/og-settle-light.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="민재네에서 상배에게 650,000원">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://aidenleekor.github.io/fukuoka-trip-2026/4e35f79afe/og-settle.jpg">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<meta name="twitter:image" content="https://aidenleekor.github.io/fukuoka-trip-2026/4e35f79afe/og-settle-light.jpg">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <style>
-/* Layout: 결론(다크 밴드) → 나눈 방식(막대) → 가구별 카드 → 전체 내역 표 */
 :root{
-  --bg:#faf9f5; --card:#f0eee6; --ink:#141413; --muted:#6b6a64; --line:#e3e0d6;
-  --coral:#cc785c; --dark:#181715; --on-dark:#faf9f5; --dim:#b7b3a8;
+  --bg:#ffffff; --soft:#f6f5f1; --ink:#141413; --muted:#77756e; --line:#ebe9e3;
+  --coral:#cc785c; --coral-bg:#fbf1ec;
   --parent:#8a9a7b; --sang:#cc785c; --min:#6b7fa3;
-  --sans:"Pretendard","Noto Sans KR",system-ui,sans-serif;
-  --mono:"JetBrains Mono",ui-monospace,monospace;
+  --sans:"Pretendard","Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif;
+  color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#1c1b19; --card:#26251f; --ink:#f0eee6; --muted:#a29f95; --line:#3a3832;
-  --coral:#d98b70; --dark:#0f0e0d; --on-dark:#f0eee6; --dim:#a29f95;
-  --parent:#9db08c; --sang:#d98b70; --min:#8fa2c6; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#1c1b19; --card:#26251f; --ink:#f0eee6; --muted:#a29f95; --line:#3a3832;
-  --coral:#d98b70; --dark:#0f0e0d; --on-dark:#f0eee6; --dim:#a29f95;
-  --parent:#9db08c; --sang:#d98b70; --min:#8fa2c6; color-scheme:dark}
 *{box-sizing:border-box}
-body{margin:0;-webkit-text-size-adjust:100%;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.6}
-.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-.num{font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:500;white-space:nowrap}
-h2{font-size:19px;font-weight:700;letter-spacing:-.02em;margin:0 0 18px}
-.eyebrow{font-size:12px;letter-spacing:.08em;color:var(--muted);font-weight:600}
-section{padding-block:36px}
-section+section{border-top:1px solid var(--line)}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;word-break:keep-all}
+.wrap{max-width:560px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+h2{font-size:18px;font-weight:700;letter-spacing:-.02em;margin:0 0 14px}
+section{padding-block:28px}
+section+section{border-top:8px solid var(--soft)}
 
-.hero{background:var(--dark);color:var(--on-dark)}
-.hero .wrap{padding-block:40px 36px;display:grid;gap:18px}
-.hero .eyebrow{color:var(--dim)}
-.transfer{display:flex;align-items:center;gap:16px}
-.who{font-size:20px;font-weight:600}
-.arrow{flex:1;min-width:60px;max-width:240px;height:2px;background:var(--coral);position:relative}
+/* 결론 */
+.hero .wrap{padding-top:max(36px,env(safe-area-inset-top,0px));padding-bottom:28px;display:grid;gap:14px}
+.eyebrow{font-size:13px;color:var(--muted);font-weight:500}
+.transfer{display:flex;align-items:center;gap:12px;font-size:19px;font-weight:700}
+.arrow{flex:1;max-width:120px;height:2px;background:var(--coral);position:relative}
 .arrow::after{content:"";position:absolute;right:-2px;top:-5px;border:6px solid transparent;border-left:9px solid var(--coral)}
-.amount{font-family:var(--mono);font-size:clamp(34px,8vw,56px);font-weight:700;color:var(--coral);letter-spacing:-.02em;line-height:1}
+.amount{font-size:clamp(44px,13vw,64px);font-weight:800;color:var(--coral);letter-spacing:-.03em;line-height:1.05}
+.note{font-size:13px;color:var(--muted)}
 
-.barhead{display:flex;justify-content:space-between;gap:12px;margin-bottom:8px;font-weight:600;font-size:14px}
-.bar{display:flex;height:40px;border-radius:8px;overflow:hidden;background:var(--card)}
-.bar>div{display:flex;align-items:center;padding:0 10px;color:#fff;font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;min-width:0}
-.legend{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:8px;font-size:13px;color:var(--muted)}
-.legend span{display:inline-flex;align-items:center;gap:6px}
-.legend i{width:10px;height:10px;border-radius:3px}
-.legend b{color:var(--ink);font-family:var(--mono);font-weight:500}
-.aside{margin-top:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px dashed var(--line);padding-top:10px}
-.aside b{color:var(--ink);font-family:var(--mono);font-weight:500}
+/* 나눈 방식 */
+.bar{display:flex;height:36px;border-radius:8px;overflow:hidden}
+.bar>div{display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;min-width:0}
+.legend{display:grid;gap:8px;margin-top:14px}
+.legend div{display:flex;justify-content:space-between;align-items:center;font-size:15px}
+.legend span{display:inline-flex;align-items:center;gap:8px;color:var(--muted)}
+.legend i{width:10px;height:10px;border-radius:3px;flex:none}
+.legend b{font-weight:600}
+.legend .tot{border-top:1px solid var(--line);padding-top:10px;font-weight:700}
+.legend .tot span{color:var(--ink)}
+.aside{margin-top:14px;background:var(--soft);border-radius:10px;padding:12px 14px;font-size:14px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.aside span{color:var(--muted)}
+.aside b{font-weight:600}
 
-.fam{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
-.card{background:var(--card);border-radius:12px;padding:20px;display:grid;gap:10px;min-width:0}
-.card h3{margin:0 0 4px;font-size:17px;letter-spacing:-.02em;display:flex;align-items:center;gap:8px}
-.card h3 i{width:10px;height:10px;border-radius:50%}
-.row{display:flex;justify-content:space-between;gap:12px;font-size:14px}
+/* 가구별 */
+.fam{display:grid;gap:12px}
+@media (min-width:520px){.fam{grid-template-columns:1fr 1fr}}
+.card{border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;gap:9px;min-width:0}
+.card.me{border-color:var(--coral);background:var(--coral-bg)}
+.card h3{margin:0 0 2px;font-size:16px;display:flex;align-items:center;gap:8px}
+.card h3 i{width:9px;height:9px;border-radius:50%}
+.row{display:flex;justify-content:space-between;gap:12px;font-size:15px}
 .row span:first-child{color:var(--muted)}
-.row.total{border-top:1px solid var(--line);padding-top:10px;font-weight:700}
+.row.total{border-top:1px solid var(--line);padding-top:9px;font-weight:700}
 .row.total span:first-child{color:var(--ink)}
-.result{background:var(--bg);border-radius:8px;padding:10px 14px;font-size:14px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-weight:600}
-.result b{font-family:var(--mono);color:var(--coral)}
+.result{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-weight:700;font-size:16px;margin-top:2px}
+.result b{color:var(--coral);font-size:20px}
+.row.sub{font-size:13px}
 
-.tbl{overflow-x:auto}
-table{width:100%;border-collapse:collapse;font-size:14px;min-width:520px}
-th{font-size:12px;color:var(--muted);font-weight:600;text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
-td{padding:9px 10px;border-bottom:1px solid var(--line)}
-th.r,td.r{text-align:right}
-td.d{color:var(--muted);font-family:var(--mono);font-size:13px;white-space:nowrap}
-tr.grp td{background:var(--card);font-weight:700;border-bottom:none;padding-top:10px}
-tr.grp td.r{font-family:var(--mono)}
-tr.sum td{font-weight:700;border-top:2px solid var(--ink);border-bottom:none;font-size:15px}
-tr.extra td{color:var(--muted);font-size:13px;border-bottom:none}
-.tag{display:inline-block;font-size:11px;font-weight:700;color:var(--min);border:1px solid var(--min);border-radius:999px;padding:0 7px;margin-left:6px;vertical-align:1px}
-.foot{margin-top:12px;font-size:12px;color:var(--muted)}
+/* 내역: 모바일용 리스트 */
+.grp{display:flex;justify-content:space-between;align-items:baseline;font-weight:700;font-size:15px;padding:16px 0 6px;border-bottom:1.5px solid var(--ink)}
+.grp:first-of-type{padding-top:0}
+ul.items{list-style:none;margin:0;padding:0}
+ul.items li{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:11px 0;border-bottom:1px solid var(--line)}
+.it{min-width:0}
+.it .name{font-size:15px}
+.it .meta{font-size:12px;color:var(--muted);margin-top:1px}
+.won{font-size:15px;font-weight:600}
+.tag{display:inline-block;font-size:11px;font-weight:700;color:var(--min);background:#eef1f7;border-radius:999px;padding:1px 7px;margin-left:5px;vertical-align:1px}
+.sum{display:flex;justify-content:space-between;font-weight:800;font-size:17px;padding:14px 0 4px}
+.extra{display:flex;justify-content:space-between;gap:12px;font-size:13px;color:var(--muted);padding-top:4px}
+.foot{margin-top:18px;font-size:12px;color:var(--muted)}
+footer{height:max(24px,env(safe-area-inset-bottom,0px))}
 </style>
 </head>
 <body>
 
 <div class="hero">
   <div class="wrap">
-    <div class="eyebrow">후쿠오카 가족여행 · 2026.10.16 – 18</div>
-    <div class="transfer"><span class="who">민재네</span><span class="arrow" aria-hidden="true"></span><span class="who">상배</span></div>
+    <div class="eyebrow">후쿠오카 가족여행 정산 · 2026.10.16–18</div>
+    <div class="transfer"><span>민재네</span><span class="arrow" aria-hidden="true"></span><span>상배</span></div>
     <div class="amount num">₩650,000</div>
-    <div class="eyebrow">계산상 ₩669,685 · 대략 맞춰서 최종 금액</div>
+    <div class="note">계산상 ₩669,685 · 대략 맞춘 최종 금액</div>
   </div>
 </div>
 
 <section>
   <div class="wrap">
     <h2>어떻게 나눴나</h2>
-    <div class="barhead"><span>공동 경비</span><span class="num">₩6,594,768</span></div>
-    <div class="bar">
+    <div class="bar" role="img" aria-label="공동 경비 중 부모님 61%, 상배네 20%, 민재네 20%">
       <div style="width:60.66%;background:var(--parent)">부모님</div>
       <div style="width:19.67%;background:var(--sang)">상배네</div>
       <div style="width:19.67%;background:var(--min)">민재네</div>
     </div>
     <div class="legend">
-      <span><i style="background:var(--parent)"></i>부모님 <b>₩4,000,000</b></span>
-      <span><i style="background:var(--sang)"></i>상배네 <b>₩1,297,384</b></span>
-      <span><i style="background:var(--min)"></i>민재네 <b>₩1,297,384</b></span>
+      <div><span><i style="background:var(--parent)"></i>부모님</span><b class="num">₩4,000,000</b></div>
+      <div><span><i style="background:var(--sang)"></i>상배네</span><b class="num">₩1,297,384</b></div>
+      <div><span><i style="background:var(--min)"></i>민재네</span><b class="num">₩1,297,384</b></div>
+      <div class="tot"><span>공동 경비</span><span class="num">₩6,594,768</span></div>
     </div>
-    <div class="aside"><span>별도 · 아빠 환갑 축의금 <b>₩1,000,000</b></span><span>상배·민재 각 <b>₩500,000</b></span></div>
+    <div class="aside"><span>별도 · 아빠 환갑 축의금 <b class="num">₩1,000,000</b></span><span>상배·민재 각 <b class="num">₩500,000</b></span></div>
   </div>
 </section>
 
@@ -123,22 +127,21 @@ tr.extra td{color:var(--muted);font-size:13px;border-bottom:none}
   <div class="wrap">
     <h2>가구별 정산</h2>
     <div class="fam">
+      <div class="card me">
+        <h3><i style="background:var(--min)"></i>민재네</h3>
+        <div class="row"><span>공동 경비</span><span class="num">₩1,297,384</span></div>
+        <div class="row"><span>축의금 절반</span><span class="num">₩500,000</span></div>
+        <div class="row total"><span>부담액</span><span class="num">₩1,797,384</span></div>
+        <div class="row"><span>먼저 결제한 금액</span><span class="num">−₩1,127,699</span></div>
+        <div class="result"><span>보낼 돈</span><b class="num">₩650,000</b></div>
+        <div class="row sub"><span>계산상 금액</span><span class="num">₩669,685</span></div>
+      </div>
       <div class="card">
         <h3><i style="background:var(--sang)"></i>상배네</h3>
         <div class="row"><span>공동 경비</span><span class="num">₩1,297,384</span></div>
         <div class="row"><span>축의금 절반</span><span class="num">₩500,000</span></div>
         <div class="row total"><span>부담액</span><span class="num">₩1,797,384</span></div>
         <div class="row"><span>결제한 금액</span><span class="num">₩6,467,069</span></div>
-        <div class="result"><span>돌려받을 돈</span><b class="num">₩4,669,685</b></div>
-      </div>
-      <div class="card">
-        <h3><i style="background:var(--min)"></i>민재네</h3>
-        <div class="row"><span>공동 경비</span><span class="num">₩1,297,384</span></div>
-        <div class="row"><span>축의금 절반</span><span class="num">₩500,000</span></div>
-        <div class="row total"><span>부담액</span><span class="num">₩1,797,384</span></div>
-        <div class="row"><span>결제한 금액</span><span class="num">₩1,127,699</span></div>
-        <div class="result"><span>보낼 돈</span><b class="num">₩650,000</b></div>
-        <div class="row"><span>계산상 금액</span><span class="num">₩669,685</span></div>
       </div>
     </div>
   </div>
@@ -147,45 +150,46 @@ tr.extra td{color:var(--muted);font-size:13px;border-bottom:none}
 <section>
   <div class="wrap">
     <h2>전체 내역</h2>
-    <div class="tbl">
-      <table>
-        <thead><tr><th>날짜</th><th>내용</th><th class="r">엔화</th><th class="r">원화</th></tr></thead>
-        <tbody>
-          <tr class="grp"><td colspan="3">사전 결제</td><td class="r">₩5,378,690</td></tr>
-          <tr><td class="d">–</td><td>에어비앤비 2박</td><td class="r num"></td><td class="r num">₩1,519,136</td></tr>
-          <tr><td class="d">–</td><td>렌터카 미쓰비시 델리카 D5</td><td class="r num"></td><td class="r num">₩328,400</td></tr>
-          <tr><td class="d">–</td><td>후쿠오카 → 부산 항공 (제주에어)</td><td class="r num"></td><td class="r num">₩1,364,985</td></tr>
-          <tr><td class="d">–</td><td>부산 → 후쿠오카 항공 (이스타항공)</td><td class="r num"></td><td class="r num">₩908,470</td></tr>
-          <tr><td class="d">–</td><td>청주팀 왕복 항공<span class="tag">민재 결제</span></td><td class="r num"></td><td class="r num">₩1,094,699</td></tr>
-          <tr><td class="d">–</td><td>마린월드 성인 6명</td><td class="r num">¥15,000</td><td class="r num">₩130,000</td></tr>
-          <tr><td class="d">–</td><td>와이파이 도시락(일본)<span class="tag">민재 결제</span></td><td class="r num"></td><td class="r num">₩33,000</td></tr>
 
-          <tr class="grp"><td colspan="3">현지 카드 (트래블월렛)</td><td class="r">₩774,163</td></tr>
-          <tr><td class="d">10.16</td><td>렌터카 카시트 추가</td><td class="r num">¥1,500</td><td class="r num">₩12,750</td></tr>
-          <tr><td class="d">10.16</td><td>야마야 벳테이 니시나카스</td><td class="r num">¥18,840</td><td class="r num">₩160,140</td></tr>
-          <tr><td class="d">10.16</td><td>도넛&amp;커피 테이크아웃</td><td class="r num">¥2,722</td><td class="r num">₩23,137</td></tr>
-          <tr><td class="d">10.16</td><td>이온몰 저녁 주전부리</td><td class="r num">¥7,315</td><td class="r num">₩62,178</td></tr>
-          <tr><td class="d">10.16</td><td>이온몰 아빠 케이크</td><td class="r num">¥3,080</td><td class="r num">₩26,180</td></tr>
-          <tr><td class="d">10.17</td><td>스시에이</td><td class="r num">¥15,740</td><td class="r num">₩133,790</td></tr>
-          <tr><td class="d">10.17</td><td>스타벅스</td><td class="r num">¥3,911</td><td class="r num">₩33,244</td></tr>
-          <tr><td class="d">10.17</td><td>텐진 지하상가</td><td class="r num">¥2,428</td><td class="r num">₩20,638</td></tr>
-          <tr><td class="d">10.17</td><td>드럭스토어 엄마 파스·약</td><td class="r num">¥1,972</td><td class="r num">₩16,762</td></tr>
-          <tr><td class="d">10.17</td><td>우메노하나 다자이후 별관</td><td class="r num">¥31,760</td><td class="r num">₩269,960</td></tr>
-          <tr><td class="d">10.18</td><td>렌터카 기름값</td><td class="r num">¥1,810</td><td class="r num">₩15,385</td></tr>
+    <div class="grp"><span>사전 결제</span><span class="num">₩5,378,690</span></div>
+    <ul class="items">
+      <li><div class="it"><div class="name">에어비앤비 2박</div></div><span class="won num">₩1,519,136</span></li>
+      <li><div class="it"><div class="name">렌터카 미쓰비시 델리카 D5</div></div><span class="won num">₩328,400</span></li>
+      <li><div class="it"><div class="name">후쿠오카 → 부산 항공</div><div class="meta">제주에어</div></div><span class="won num">₩1,364,985</span></li>
+      <li><div class="it"><div class="name">부산 → 후쿠오카 항공</div><div class="meta">이스타항공</div></div><span class="won num">₩908,470</span></li>
+      <li><div class="it"><div class="name">청주팀 왕복 항공<span class="tag">민재 결제</span></div></div><span class="won num">₩1,094,699</span></li>
+      <li><div class="it"><div class="name">마린월드 성인 6명</div><div class="meta">¥15,000</div></div><span class="won num">₩130,000</span></li>
+      <li><div class="it"><div class="name">와이파이 도시락(일본)<span class="tag">민재 결제</span></div></div><span class="won num">₩33,000</span></li>
+    </ul>
 
-          <tr class="grp"><td colspan="3">현금</td><td class="r">₩441,915</td></tr>
-          <tr><td class="d">10.16</td><td>저녁 야키니쿠</td><td class="r num">¥28,120</td><td class="r num">₩239,020</td></tr>
-          <tr><td class="d">10.17</td><td>엄마 슬리퍼</td><td class="r num">¥4,620</td><td class="r num">₩39,270</td></tr>
-          <tr><td class="d">10.18</td><td>마지막 날 점심 라멘</td><td class="r num">¥9,250</td><td class="r num">₩78,625</td></tr>
-          <tr><td class="d">10.16–18</td><td>주차·톨비·숙박세·기타</td><td class="r num">¥10,000</td><td class="r num">₩85,000</td></tr>
+    <div class="grp"><span>현지 카드 (트래블월렛)</span><span class="num">₩774,163</span></div>
+    <ul class="items">
+      <li><div class="it"><div class="name">렌터카 카시트 추가</div><div class="meta">10.16 · ¥1,500</div></div><span class="won num">₩12,750</span></li>
+      <li><div class="it"><div class="name">야마야 벳테이 니시나카스</div><div class="meta">10.16 · ¥18,840</div></div><span class="won num">₩160,140</span></li>
+      <li><div class="it"><div class="name">도넛&amp;커피 테이크아웃</div><div class="meta">10.16 · ¥2,722</div></div><span class="won num">₩23,137</span></li>
+      <li><div class="it"><div class="name">이온몰 저녁 주전부리</div><div class="meta">10.16 · ¥7,315</div></div><span class="won num">₩62,178</span></li>
+      <li><div class="it"><div class="name">이온몰 아빠 케이크</div><div class="meta">10.16 · ¥3,080</div></div><span class="won num">₩26,180</span></li>
+      <li><div class="it"><div class="name">스시에이</div><div class="meta">10.17 · ¥15,740</div></div><span class="won num">₩133,790</span></li>
+      <li><div class="it"><div class="name">스타벅스</div><div class="meta">10.17 · ¥3,911</div></div><span class="won num">₩33,244</span></li>
+      <li><div class="it"><div class="name">텐진 지하상가</div><div class="meta">10.17 · ¥2,428</div></div><span class="won num">₩20,638</span></li>
+      <li><div class="it"><div class="name">드럭스토어 엄마 파스·약</div><div class="meta">10.17 · ¥1,972</div></div><span class="won num">₩16,762</span></li>
+      <li><div class="it"><div class="name">우메노하나 다자이후 별관</div><div class="meta">10.17 · ¥31,760</div></div><span class="won num">₩269,960</span></li>
+      <li><div class="it"><div class="name">렌터카 기름값</div><div class="meta">10.18 · ¥1,810</div></div><span class="won num">₩15,385</span></li>
+    </ul>
 
-          <tr class="sum"><td colspan="3">공동 경비 합계</td><td class="r num">₩6,594,768</td></tr>
-          <tr class="extra"><td class="d">별도</td><td colspan="2">아빠 환갑 축의금 · 상배·민재 각 ₩500,000</td><td class="r num">₩1,000,000</td></tr>
-        </tbody>
-      </table>
-    </div>
+    <div class="grp"><span>현금</span><span class="num">₩441,915</span></div>
+    <ul class="items">
+      <li><div class="it"><div class="name">저녁 야키니쿠</div><div class="meta">10.16 · ¥28,120</div></div><span class="won num">₩239,020</span></li>
+      <li><div class="it"><div class="name">엄마 슬리퍼</div><div class="meta">10.17 · ¥4,620</div></div><span class="won num">₩39,270</span></li>
+      <li><div class="it"><div class="name">마지막 날 점심 라멘</div><div class="meta">10.18 · ¥9,250</div></div><span class="won num">₩78,625</span></li>
+      <li><div class="it"><div class="name">주차·톨비·숙박세·기타</div><div class="meta">10.16–18 · ¥10,000</div></div><span class="won num">₩85,000</span></li>
+    </ul>
+
+    <div class="sum"><span>공동 경비 합계</span><span class="num">₩6,594,768</span></div>
+    <div class="extra"><span>별도 · 아빠 환갑 축의금 (각 ₩500,000)</span><span class="num">₩1,000,000</span></div>
     <div class="foot">엔화는 ¥1 = ₩8.5로 환산</div>
   </div>
 </section>
+<footer></footer>
 </body>
 </html>
